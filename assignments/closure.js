@@ -1,7 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function theFunc(favSport) {
+  function theFunctwo(bestPos) {
+    console.log(favSport + " " + bestPos);
+  }
+  return theFunctwo;
+}
 
-
+const athlete = theFunc("Lacrosse");
+athlete("Attacker");
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
